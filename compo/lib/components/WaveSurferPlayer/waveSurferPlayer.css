@@ -1,0 +1,36 @@
+.waveSurferPlayer {
+    background-color: #eaecf0;
+    border-radius: 5px;
+    margin-top: 2%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.waveSurferPlayer .fileProcSpinner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: 999;
+}
+
+.waveSurferControls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.waveSurferControls .imgControl {
+    height: 22px;
+    width: 22px;
+}
+
+.waveSurferControls .zoomInput {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.waveSurferControls .zoomInput input {
+    margin-left: 5px;
+}
